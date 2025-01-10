@@ -1,13 +1,13 @@
 @echo off
 :: ------------------------------------
-:: Media Sorting Script for Windows
+:: ChaosToOrder Script for Windows
 :: ------------------------------------
-:: Usage: move_to_filtered.bat "C:\path\to\target-folder"
+:: Usage: chaos_to_order.bat "C:\path\to\target-folder"
 :: ------------------------------------
 
 :: Check if the target folder is provided
 if "%~1"=="" (
-    echo Usage: move_to_filtered.bat "C:\path\to\target-folder"
+    echo Usage: chaos_to_order.bat "C:\path\to\target-folder"
     exit /b
 )
 
